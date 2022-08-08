@@ -1,10 +1,10 @@
-﻿## Interface: 20503
+﻿## Interface: 30400
 ## Title: GladiatorlosSA
 ## Notes: PvP Sound Alerter
 ## Notes-zhTW: PVP技能語音提示
 ## Author: Abatorlos(of Spinebreaker), DuskAshes, superk521, zuhligan, Grit (Legion Update), Mini_Dragon, LordKuper
 ## SavedVariables: GladiatorlosSADB
-## Version: TBC-1.2
+## Version: WRATH-1.4
 
 embeds.xml
 Locales\locales.xml

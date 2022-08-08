@@ -24,16 +24,14 @@
 			-- Druid (Aura Applied)
 			[5229] = "enrage",
 			[2893] = "abolishPoison",
+			[61336] = "survivalInstincts",
 			[29166] = "innervate",
 			[22812] = "barkskin",
 			[5217] = "tigersFury", -- Rank 1
 			[6793] = "tigersFury", -- Rank 2
 			[9845] = "tigersFury", -- Rank 3
 			[9846] = "tigersFury", -- Rank 4
-			[22842] = "frenziedRegen", -- Rank 1
-			[22895] = "frenziedRegen", -- Rank 2
-			[22896] = "frenziedRegen", -- Rank 3
-			[26999] = "frenziedRegen", -- Rank 4
+			[22842] = "frenziedRegen",
 			[16689] = "naturesGrasp", -- Rank 1
 			[16810] = "naturesGrasp", -- Rank 2
 			[16811] = "naturesGrasp", -- Rank 3
@@ -41,12 +39,14 @@
 			[16813] = "naturesGrasp", -- Rank 5
 			[17329] = "naturesGrasp", -- Rank 6
 			[27009] = "naturesGrasp", -- Rank 7
+			[53312] = "naturesGrasp", -- Rank 8
 			[17116] = "naturesSwiftness",
 			-- Check on friendly
 			[9005] = "pounce", -- Rank 1
 			[9823] = "pounce", -- Rank 2
 			[9827] = "pounce", -- Rank 3
 			[27006] = "pounce", -- Rank 4
+			[50334] = "berserk",
 
 
 			-- Hunter (Aura Applied)
@@ -54,6 +54,8 @@
 			[19577] = "intimidation",
 			[19263] = "deterrence",
 			[19574] = "bestialWrath",
+			[53480] = "roarofsacrifice",
+			[34471] = "theBeastWithin",
 			-- Check on friendly
 			[1499] = "trapped", -- Freezing Trap Rank 1
 			[14310] = "trapped", -- Freezing Trap Rank 2
@@ -95,6 +97,7 @@
 			[12043] = "presenceOfMind",
 			[12042] = "arcanePower",
 			[11129] = "combustion",
+			[28682] = "combustion",
 			[12472] = "icyVeins",
 			[11426] = "mageShield", -- Rank 1
 			[13031] = "mageShield", -- Rank 2
@@ -105,24 +108,29 @@
 			-- Check on friendly
 			[12355] = "impact", -- Actual debuff
 
+			--DK
+			[49039] = "lichborne",
+			[48792] = "iceboundFortitude",
+			[55233] = "vampiricBlood",
+			[48707] = "antimagicshell",
+			[49222] = "boneshield",
+			[49016] = "hysteria",
+
 			-- Paladin (Aura Applied)
 			[1044] = "handOfFreedom",
 			[498] = "divineProtection", -- Rank 1
-			[5573] = "divineProtection", -- Rank 2
-			[1022] = "handOfProtection", -- Rank 1
-			[5599] = "handOfProtection", -- Rank 2
-			[10278] = "handOfProtection", -- Rank 3
+			[31821] = "auraMastery",
+			[1022] = "handOfProtection",	--Hand of Protection rank 1
+			[5599] = "handOfProtection",	--Hand of Protection rank 2
+			[10278] = "handOfProtection",	--Hand of Protection rank 3
 			[20164] = "sealOfJustice", -- Rank 1
-			[31895] = "sealOfJustice", -- Rank 2
 			[642] = "divineShield", -- Rank 1
-			[1020] = "divineShield", -- Rank 2
 			[21082] = "sealOfCrusader", -- Rank 1
 			[20162] = "sealOfCrusader", -- Rank 2
 			[20305] = "sealOfCrusader", -- Rank 3
 			[20306] = "sealOfCrusader", -- Rank 4
 			[20307] = "sealOfCrusader", -- Rank 5
 			[20308] = "sealOfCrusader", -- Rank 6
-			[27158] = "sealOfCrusader", -- Rank 7
 			[31892] = "sealOfBlood",
 			[348700] = "sealOfBlood", -- Seal of the Martyr
 			[31801] = "sealOfVengeance",
@@ -136,41 +144,33 @@
 			[20291] = "sealOfRighteousness", -- Rank 6
 			[20292] = "sealOfRighteousness", -- Rank 7
 			[20293] = "sealOfRighteousness", -- Rank 8
-			[27155] = "sealOfRighteousness", -- Rank 9
 			[20166] = "sealOfWisdom", -- Rank 1
 			[20356] = "sealOfWisdom", -- Rank 2
 			[20357] = "sealOfWisdom", -- Rank 3
-			[27166] = "sealOfWisdom", -- Rank 4
 			[20165] = "sealOfLight", -- Rank 1
 			[20347] = "sealOfLight", -- Rank 2
 			[20348] = "sealOfLight", -- Rank 3
 			[20349] = "sealOfLight", -- Rank 4
-			[27160] = "sealOfLight", -- Rank 5
 			[31884] = "avengingWrath",
 			[6940] = "Sacrifice", -- Rank 1
-			[20729] = "Sacrifice", -- Rank 2
-			[27147] = "Sacrifice", -- Rank 3
-			[27148] = "Sacrifice", -- Rank 4
+			[64205] = "divineSacrifice",
 			[20216] = "divineFavor",
 			[20375] = "sealOfCommand",
 			[31842] = "divineIllumination",
 			-- Check on friendly
-			[20170] = "justiceStun",
+			[10308] = "justiceStun",
+			[54428] = "divinePlea",
+
 
 			-- Priest (Aura Applied)
-			[2651] = "elunesGrace",
-			[6346] = "fearWard",
-			[13896] = "feedback", -- Rank 1
-			[19271] = "feedback", -- Rank 2
-			[19273] = "feedback", -- Rank 3
-			[19274] = "feedback", -- Rank 4
-			[19275] = "feedback", -- Rank 5
-			[25441] = "feedback", -- Rank 6
 			[33206] = "painSuppression",
 			[10060] = "powerInfusion",
+			[6346] = "fearWard",
 			[14751] = "innerFocus",
 			[15286] = "vampiricEmbrace",
 			[552] = "abolishDisease",
+			[47788] = "GuardianSpirit",
+			[47585] = "dispersion",
 
 			-- Rogue (Aura Applied)
 			[5277] = "evasion", -- Rank 1
@@ -185,11 +185,26 @@
 			[11297] = "sap", -- Rank 3
 			[26839] = "garrote", -- Rank 7 (7+ silence)
 			[26884] = "garrote", -- Rank 8
+			[51713] = "shadowDance",
 
 			-- Shaman (Aura Applied)
 			[16166] = "elementalMastery",
 			[30823] = "shamanisticRage",
 			[16188] = "naturesSwiftness",
+			[974] = "earthShield",	--Earth Shield rank 1
+			[32593] = "earthShield",	--Earth Shield rank 2
+			[32594] = "earthShield",	--Earth Shield rank 3
+			[49283] = "earthShield",	--Earth Shield rank 4
+			[49284] = "earthShield",	--Earth Shield rank 5
+			[52127] = "waterShield",	--Water Shield rank 1
+			[52129] = "waterShield",	--Water Shield rank 2
+			[52131] = "waterShield",	--Water Shield rank 3
+			[52134] = "waterShield",	--Water Shield rank 4
+			[52136] = "waterShield",	--Water Shield rank 5
+			[52138] = "waterShield",	--Water Shield rank 6
+			[24398] = "waterShield",	--Water Shield rank 7
+			[33736] = "waterShield",	--Water Shield rank 8
+			[57960] = "waterShield",	--Water Shield rank 9
 
 			-- Warlock (Aura Applied)
 			[132] = "detectInvisibility",
@@ -200,6 +215,8 @@
 			[18288] = "amplifyCurse",
 
 			-- Warrior (Buff Applied)
+			[55694] = "EnragedRegeneration",
+			[46924] = "bladestorm",
 			[2457] = "damageStance",
 			[71] = "defenseStance",
 			[2458] = "berserkerStance",
@@ -210,8 +227,7 @@
 			[23920] = "spellReflection",
 			[12292] = "deathwish",
 			[12975] = "lastStand",
-
-
+			[20230] = "Retaliation",
 		},
 		auraRemoved = {					-- aura removed [spellid] = ".mp3 file name",
 			-- General (Aura Removed)
@@ -219,43 +235,36 @@
 
 			-- Druid (Aura Removed)
 			[29166] = "innervateDown",
+			[48505] = "Starfalldown",	--starfall rank 1
+			[53199] = "Starfalldown",	--starfall rank 2
+			[53200] = "Starfalldown",	--starfall rank 3
+			[53201] = "Starfalldown",	--starfall rank 4
 
 			-- Hunter (Aura Removed)
 			[19263] = "deterrenceDown",
+			[34471] = "beastwithindown",
 
 			-- Mage (Aura Removed)
 			[12042] = "APDown",
 			[11129] = "combustionDown",
 			[12472] = "icyVeinsDown",
+			[45438] = "iceBlockDown",
 
 			-- Paladin (Aura Removed)
 			[25771] = "forbearanceDown",
 			[498] = "ProtectionDown", -- Rank 1
-			[5573] = "ProtectionDown", -- Rank 2
-			[1022] = "ProtectionDown", -- Rank 1
-			[5599] = "ProtectionDown", -- Rank 2
 			[10278] = "ProtectionDown", -- Rank 3
 			[642] = "bubbleDown", -- Rank 1
-			[1020] = "bubbleDown", -- Rank 2
 			[6940] = "sacrificeDown", -- Rank 1
-			[20729] = "sacrificeDown", -- Rank 2
-			[27147] = "sacrificeDown", -- Rank 3
-			[27148] = "sacrificeDown", -- Rank 4
 			[20216] = "divineFavorDown",
 
 			-- Priest (Aura Removed)
-			[2651] = "elunesGraceDown",
 			[6346] = "fearWardDown",
-			[13896] = "feedbackDown", -- Rank 1
-			[19271] = "feedbackDown", -- Rank 2
-			[19273] = "feedbackDown", -- Rank 3
-			[19274] = "feedbackDown", -- Rank 4
-			[19275] = "feedbackDown", -- Rank 5
-			[25441] = "feedbackDown", -- Rank 6
 			[15286] = "vampiricEmbraceDown",
 			[33206] = "PSDown",
 			[10060] = "infusionDown",
 			[14751] = "innerFocusDown",
+			[47585] = "dispersionDown",
 
 			-- Rogue (Aura Removed)
 			[5277] = "evasionDown", -- Rank 1
@@ -268,7 +277,13 @@
 			-- Warlock (Aura Removed)
 			-- nope
 
+			--DK
+			[48792] = "iceboundFortitudeDown",
+			[49039] = "lichborneDown",
+			[48707] = "antimagicshelldown",
+
 			-- Warrior (Aura Removed)
+			[46924] = "bladestormdown",
 			[871] = "shieldWallDown",
 			[1719] = "recklessnessDown",
 			[23920] = "spellReflectionDown",
@@ -279,31 +294,76 @@
 		
 		--GENERAL
 			-- Big Heals
---[[			[2060] = "bigHeal", -- Heal (Holy Priest)
-			[82326] = "bigHeal", -- Holy Light (Paladin)
-			[77472] = "bigHeal", -- Healing Wave (Shaman)
-			--[5185] = "bigHeal", -- Healing Touch (Druid)
-			--[116670] = "bigHeal", -- Vivify (Mistweaver)
-			[227344] = "bigHeal", -- Surging Mist (Honor Talent)
-			[194509] = "bigHeal", -- Power Word: Radiance (Discipline)
-			--[204065] = "bigHeal", -- Shadow Covenant (Discipline)
-			[152118] = "bigHeal", -- Clarity of Will (Discipline)
-			--[186263] = "bigHeal", -- Shadow Mend (Discipline/Shadow Priest)
-			--[116694] = "bigHeal", -- Effuse (Mistweaver)
-			--[124682] = "bigHeal", -- Enveloping Mists (Mistweaver)]]
+			[635] = "bigHeal",	--Holy Light rank 1
+			[639] = "bigHeal",	--Holy Light rank 2
+			[647] = "bigHeal",	--Holy Light rank 3
+			[1026] = "bigHeal",	--Holy Light rank 4
+			[1042] = "bigHeal",	--Holy Light rank 5
+			[3472] = "bigHeal",	--Holy Light rank 6
+			[10328] = "bigHeal",	--Holy Light rank 7
+			[10329] = "bigHeal",	--Holy Light rank 8
+			[25292] = "bigHeal",	--Holy Light rank 9
+			[27135] = "bigHeal",	--Holy Light rank 10
+			[27136] = "bigHeal",	--Holy Light rank 11
+			[48782] = "bigHeal",	--Holy Light rank 12
+			[2054] = "bigHeal",		--Heal rank 1
+			[2055] = "bigHeal",		--Heal rank 2
+			[6063] = "bigHeal",		--Heal rank 3
+			[6064] = "bigHeal",		--Heal rank 4
+			[2060] = "bigHeal",		--Greater Heal rank 1
+			[332] = "bigHeal",	--Healing Wave rank 2
+			[547] = "bigHeal",	--Healing Wave rank 3
+			[913] = "bigHeal",	--Healing Wave rank 4
+			[939] = "bigHeal",	--Healing Wave rank 5
+			[959] = "bigHeal",	--Healing Wave rank 6
+			[8005] = "bigHeal",	--Healing Wave rank 7
+			[10395] = "bigHeal",	--Healing Wave rank 8
+			[10396] = "bigHeal",	--Healing Wave rank 9
+			[25357] = "bigHeal",	--Healing Wave rank 10
+			[25391] = "bigHeal",	--Healing Wave rank 11
+			[25396] = "bigHeal",	--Healing Wave rank 12
+			[49272] = "bigHeal",	--Healing Wave rank 13
+			[49273] = "bigHeal",	--Healing Wave rank 14
+			[5185] = "bigHeal",		--Healing Touch rank 1
+			[5186] = "bigHeal",		--Healing Touch rank 2
+			[5187] = "bigHeal",		--Healing Touch rank 3
+			[5188] = "bigHeal",		--Healing Touch rank 4
+			[5189] = "bigHeal",		--Healing Touch rank 5
+			[6778] = "bigHeal",		--Healing Touch rank 6
+			[8903] = "bigHeal",		--Healing Touch rank 7
+			[9758] = "bigHeal",		--Healing Touch rank 8
+			[9888] = "bigHeal",		--Healing Touch rank 9
+			[9889] = "bigHeal",		--Healing Touch rank 10
+			[25297] = "bigHeal",		--Healing Touch rank 11
+			[26978] = "bigHeal",		--Healing Touch rank 12
+			[26979] = "bigHeal",		--Healing Touch rank 13
+			[48377] = "bigHeal",		--Healing Touch rank 14
+			[48378] = "bigHeal",		--Healing Touch rank 15
 			
 			-- Non-Combat Resurrections
-			[2006] = "resurrection", -- Resurrection (Priest)
-			[7328] = "resurrection", -- Redemption (Paladin)
-			[2008] = "resurrection", -- Ancestral Spirit (Shaman)
-			[115178] = "resurrection", -- Resusicate (Monk)
-			[50769] = "resurrection",  -- Revive (Druid)
-			-- Non-Combat Mass Resurrections
-			[212040] = "resurrection", -- Revitalize (Druid Mass Rez)
-			[212051] = "resurrection", -- Reawaken (Monk Mass Rez)
-			[212036] = "resurrection", -- Mass Resurrection (Priest Mass Rez)
-			[212056] = "resurrection", -- Absolution (Paladin Mass Rez)
-			[212048] = "resurrection", -- Ancestral Vision (Shaman Mass Rez)
+			[2006] = "resurrection",	--Resurrection (priest) rank 1
+			[2010] = "resurrection",	--Resurrection (priest) rank 2
+			[10880] = "resurrection",	--Resurrection (priest) rank 3
+			[10881] = "resurrection",	--Resurrection (priest) rank 4
+			[20770] = "resurrection",	--Resurrection (priest) rank 5
+			[25435] = "resurrection",	--Resurrection (priest) rank 6
+			[48171] = "resurrection",	--Resurrection (priest) rank 7
+			[7328] = "resurrection",	--Redemption rank 1
+			[10322] = "resurrection",	--Redemption rank 2
+			[10324] = "resurrection",	--Redemption rank 3
+			[20772] = "resurrection",	--Redemption rank 4
+			[20773] = "resurrection",	--Redemption rank 5
+			[48949] = "resurrection",	--Redemption rank 6
+			[48950] = "resurrection",	--Redemption rank 7
+			[2008] = "resurrection",	--Ancestral Spirit rank 1
+			[20609] = "resurrection",	--Ancestral Spirit rank 2
+			[50769] = "resurrection",	--Revive rank 1
+			[50768] = "resurrection",	--Revive rank 2
+			[50767] = "resurrection",	--Revive rank 3
+			[50766] = "resurrection",	--Revive rank 4
+			[50765] = "resurrection",	--Revive rank 5
+			[50764] = "resurrection",	--Revive rank 6
+			[50763] = "resurrection",	--Revive rank 7
 
 			-- Druid (Spell Casting)
 			[2637] = "hibernate", -- Rank 1
@@ -316,6 +376,7 @@
 			[9852] = "entanglingRoots", -- Rank 5
 			[26989] = "entanglingRoots", -- Rank 6
 			[33786] = "cyclone",
+			[48465] = "starfire", --rank 10
 
 			-- Hunter (Spell Casting)
 			[19434] = "aimedShot", -- Rank 1
@@ -337,6 +398,10 @@
 			[12826] = "polymorph", -- Rank 4 (Sheep)
 			[28271] = "polymorph", -- Rank 1 (Turtle)
 			[28272] = "polymorph", -- Rank 1 (Pig)
+			[61305] = "polymorph",
+			[61721] = "polymorph",
+			[61025] = "polymorph",
+			[61780] = "polymorph",
 			[12051] = "evocation",
 
 			-- Paladin (Spell Casting)
@@ -347,21 +412,22 @@
 			-- Priest (Spell Casting)
 			[605] = "mindControl", -- Rank 1
 			[10911] = "mindControl", -- Rank 2
-			[10912] = "mindControl", -- Rank 3
 			[8129] = "manaBurn", -- Rank 1
 			[8131] = "manaBurn", -- Rank 2
 			[10874] = "manaBurn", -- Rank 3
 			[10875] = "manaBurn", -- Rank 4
 			[10876] = "manaBurn", -- Rank 5
 			[25379] = "manaBurn", -- Rank 6
-			[25380] = "manaBurn", -- Rank 7
 			[32375] = "massDispell",
+			[64843] = "divineHymn",
+			[9484] = "shackleUndead",
 
 			-- Rogue (Spell Casting)
 			-- lol
 
-			-- Shaman (Spell Casting)
-			-- ...also lol apparently
+			-- Shaman (Spell Casting)			
+			[51514] = "hex", --works
+			[60043] = "lavaburst",
 
 			-- Warlock (Spell Casting)
 			[688] = "summonDemon", -- Imp
@@ -378,8 +444,7 @@
 			[30108] = "unstableAffliction", -- Rank 1
 			[30404] = "umstableAffliction", -- Rank 2
 			[30405] = "unstableAffliction", -- Rank 3
-			[710] = "banish", -- Rank 1
-			[18647] = "banish", -- Rank 2
+			[710] = "banish",
 			[30283] = "shadowfury", -- Rank 1
 			[30413] = "shadowfury", -- Rank 2
 			[30414] = "shadowfury", -- Rank 3
@@ -399,11 +464,6 @@
 			[27219] = "drainLife", -- Rank 7
 			[27220] = "drainLife", -- Rank 8
 			[5138] = "drainMana", -- Rank 1
-			[6226] = "drainMana", -- Rank 2
-			[11703] = "drainMana", -- Rank 3
-			[11704] = "drainMana", -- Rank 4
-			[27221] = "drainMana", -- Rank 5
-			[30908] = "drainMana", -- Rank 6
 			[6353] = "soulFire", -- Rank 1
 			[17924] = "soulFire", -- Rank 2
 			[27211] = "soulFire", -- Rank 3
@@ -462,6 +522,8 @@
 			[5782] = "success", -- Fear Rank 1
 			[6213] = "success", -- Fear Rank 2
 			[6215] = "success", -- Fear Rank 3
+			-- Shaman
+			[51514] = "success", -- Hex
 
 			-- CastSuccess (Major non-CC spells that connect)
 			[8129] = "connected", -- Mana Burn Rank 1
@@ -486,15 +548,13 @@
 			[28730] = "arcaneTorrent",
 			[25046] = "arcaneTorrent",
 			[50613] = "arcaneTorrent",
-			[69179] = "arcaneTorrent",
-			[155145] = "arcaneTorrent",
-			[129597] = "arcaneTorrent",
-			[202719] = "arcaneTorrent",
-			[80483] = "arcaneTorrent",
-			[232633] = "arcaneTorrent",
 			[58984] = "shadowmeld",
+			[26297] = "Berserk",
 			[20594] = "stoneform",
+			[20572] = "BloodFury",
+			[33702] = "BloodFury",
 			[7744] = "willOfTheForsaken",
+			[28880] = "giftofthenaaru",
 			[59752] = "everyMan", 
 			[287712] = "haymaker",
 			[295707] = "regeneratin",
@@ -525,10 +585,6 @@
 			[9821] = "dash", -- Rank 2
 			[33357] = "dash", -- Rank 3
 			[770] = "faerieFire", -- Rank 1
-			[778] = "faerieFire", -- Rank 2
-			[9749] = "faerieFire", -- Rank 3
-			[9907] = "faerieFire", -- Rank 4
-			[26993] = "faerieFire", -- Rank 5
 			[16857] = "faerieFire", -- Rank 1 (Feral)
 			[17390] = "faerieFire", -- Rank 2 (Feral)
 			[17391] = "faerieFire", -- Rank 3 (Feral)
@@ -541,6 +597,10 @@
 			[9863] = "tranquility", -- Rank 4
 			[26983] = "tranquility", -- Rank 5
 			[18562] = "swiftmend",
+			[48505] = "starfall",	--starfall rank 1
+			[53199] = "starfall",	--starfall rank 2
+			[53200] = "starfall",	--starfall rank 3
+			[53201] = "starfall",	--starfall rank 4
 
 			-- Hunter (Cast Success)
 			[5116] = "concussiveShot",
@@ -552,6 +612,10 @@
 			[1499] = "freezingTrap", -- Rank 1
 			[14310] = "freezingTrap", -- Rank 2
 			[14311] = "freezingTrap", -- Rank 3
+			[60192] = "freezingtrap", --double check
+			[14309] = "freezingtrap", --freezing trap effect
+			[13810] = "frosttrap", --frost trap aura
+			[13809] = "frosttrap", --frost trap aura
 			[34490] = "silencingShot",
 			[23989] = "readiness",
 			[19386] = "wyvernSting", -- Rank 1
@@ -563,6 +627,7 @@
 			[14286] = "arcaneShot", -- Rank 7
 			[14287] = "arcaneShot", -- Rank 8
 			[27019] = "arcaneShot", -- Rank 9
+			[53271] = "masterscall",
 
 			-- Mage (Cast Success)
 			[475] = "removeLesserCurse",
@@ -579,6 +644,15 @@
 			[11113] = "blastWave",
 			[11958] = "coldSnap",
 			[31687] = "waterElemental",
+			[44572] = "deepFreeze",
+
+			--DK
+			[47528] = "mindFreeze",
+			[47476] = "strangulate",
+			[47568] = "runeWeapon",
+			[49206] = "gargoyle",
+			[49203] = "hungeringCold",
+			[61606] = "markofblood",
 
 			-- Paladin (Cast Success)
 			[20271] = "judgement", -- blizzard can't spell
@@ -600,7 +674,6 @@
 			[20066] = "repentance",
 
 			-- Priest (Cast Success)
-			[32548] = "symbolOfHope",
 			[528] = "cureDisease",
 			[527] = "dispelMagic", -- Rank 1 (Purge)
 			[988] = "dispelMagic", -- Rank 2 (Purge)
@@ -616,15 +689,13 @@
 			[19279] = "devouringPlague", -- Rank 5
 			[19280] = "devouringPlague", -- Rank 6
 			[25467] = "devouringPlague", -- Rank 7
-			[44041] = "chastise", -- Rank 1
-			[44043] = "chastise", -- Rank 2
-			[44044] = "chastise", -- Rank 3
-			[44045] = "chastise", -- Rank 4
-			[44046] = "chastise", -- Rank 5
-			[44047] = "chastise", -- Rank 6
+			[48299] = "devouringPlague", -- Rank 8
+			[48300] = "devouringPlague", -- Rank 9
 			[32379] = "shadowWordDeath", -- Rank 1
 			[32996] = "shadowWordDeath", -- Rank 2
 			[15487] = "silence",
+			[64044] = "disarm3", --psychic horror, works
+
 
 			-- Rogue (Cast Success)
 			[2094] = "blind",
@@ -654,13 +725,16 @@
 			[14278] = "ghostlyStrike",
 			[14185] = "preparation",
 			[36554] = "shadowstep",
+			[51722] = "disarm2", --dismantle
+			[51724] = "sap",
+			[11297] = "sap",
+			[6770] = "sap",
+			[13877] = "bladeflurry",
 
 			-- Shaman (Cast Success)
 			[2484] = "earthbindTotem",
 			[526] = "curePoison",
 			[8143] = "tremorTotem",
-			[2870] = "cureDisease",
-			[8166] = "poisonCleansingTotem",
 			[8177] = "grounding",
 			[370] = "purge", -- Rank 1
 			[8012] = "purge", -- Rank 2
@@ -678,12 +752,17 @@
 			[2825] = "bloodlust",
 			[32182] = "bloodlust", -- Heroism
 			[16190] = "manaTideTotem",
+			[8143] = "tremorTotem", --works
+			[65992] = "tremorTotem", --dont know which one
 
 			-- Warlock (Cast Success)
-			[6789] = "mortalCoil", -- Rank 1
-			[17925] = "mortalCoil", -- Rank 2
-			[17926] = "mortalCoil", -- Rank 3
-			[27223] = "mortalCoil", -- Rank 4
+			[5138] = "DrainMana",
+			[17928] = "fear2", --Howl of Terror
+			[19647] = "spellLock",
+			[48020] = "demonicCircleTeleport",
+			[6789] = "mortalCoil",
+			[47860] = "mortalCoil",
+			[6358] = "Seduction",
 
 
 			-- Warrior (Cast Success)
@@ -706,6 +785,9 @@
 			[3411] = "intervene",
 			[12328] = "sweepingStrikes",
 			[12809] = "concussionBlow",
+			[2457] = "battlestance",
+			[71] = "defensestance",
+			[2458] = "berserkerstance",
 		},
 		friendlyInterrupt = {			--friendly interrupt [spellid] = ".mp3 file name",
 			[19647] = "lockout", -- Spell Locks begin
