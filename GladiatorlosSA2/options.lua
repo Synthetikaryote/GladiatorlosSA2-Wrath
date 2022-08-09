@@ -525,7 +525,7 @@ function GSA:OnOptionCreate()
 								inline = true,
 								name = L["|cff9482C9Warlock|r"],
 								order = 150,
-								args = listOption({132,47891,18708},"auraApplied"),
+								args = listOption({132,47891,18708,47241},"auraApplied"),
 							},
 							warrior	= { -- AuraApplied
 								type = 'group',
@@ -612,13 +612,13 @@ function GSA:OnOptionCreate()
 								order = 130,
 								args = listOption({16166,32182,2825,16188,30823},"auraRemoved"),
 							},
---[[							warlock = { -- AuraRemoved
+							warlock = { -- AuraRemoved
 								type = 'group',
 								inline = true,
 								name = L["|cff9482C9Warlock|r"],
 								order = 140,
-								args = listOption({18708},"auraRemoved"),
-							},]]
+								args = listOption({18708,47241},"auraRemoved"),
+							},
 							warrior	= { -- AuraRemoved
 								type = 'group',
 								inline = true,
@@ -859,7 +859,7 @@ function GSA:OnOptionCreate()
 								inline = true,
 								name = L["|cff9482C9Warlock|r"],
 								order = 150,
-								args = listOption({47860,47847,48011,47875},"castSuccess"),
+								args = listOption({17928,19647,47860,47847,48011,47875,48020},"castSuccess"),
 							},
 							warrior	= { -- CastSuccess
 								type = 'group',

@@ -199,6 +199,7 @@
 			[28610] = "shadowWard", -- Rank 4
 			[47891] = "shadowWard",
 			[18708] = "felDomination",
+			[47241] = "metamorphosis",
 
 			-- Warrior (Buff Applied)
 			[55694] = "enragedRegeneration",
@@ -332,6 +333,7 @@
 
 			-- Warlock (Aura Removed)
 			[18708] = "felDominationDown",
+			[47241] = "metamorphDown",
 
 			--DK
 			[45529] = "bloodTapDown",
