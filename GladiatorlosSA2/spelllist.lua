@@ -9,7 +9,8 @@
 			-- Drinking
 			[5006] = "drinking",
 			[44055] = "battlemaster",
-
+			[54861] = "nitroBoost",
+			[54758] = "hyperspeedAccelerator",
 
 			-- Druid (Aura Applied)
 			[5229] = "enrage",
@@ -21,7 +22,7 @@
 			[6793] = "tigersFury", -- Rank 2
 			[9845] = "tigersFury", -- Rank 3
 			[9846] = "tigersFury", -- Rank 4
-			[22842] = "frenziedRegen",
+			[22842] = "frenziedRegeneration",
 			[16689] = "naturesGrasp", -- Rank 1
 			[16810] = "naturesGrasp", -- Rank 2
 			[16811] = "naturesGrasp", -- Rank 3
@@ -135,7 +136,7 @@
 			[20375] = "sealOfCommand",
 			[31842] = "divineIllumination",
 			[20178] = "reckoning",
-			[10308] = "justiceStun",
+			[10308] = "hammerOfJustice",
 			[54428] = "divinePlea",
 			[53563] = "beaconOfLight",
 			[53601] = "sacredShield",
@@ -215,9 +216,10 @@
 		auraRemoved = {					-- aura removed [spellid] = ".mp3 file name",
 			-- General (Aura Removed)
 			[44055] = "battlemasterDown",
+			[34709] = "shadowSightDown",
 
 			[54861] = "nitroBoostDown",
-			[54758] = "hyperspeedAcceleratorDown",
+			[54758] = "hyperspeedAceleratorDown",
 
 			--Races
 			[58984] = "shadowmeldDown",
@@ -444,6 +446,11 @@
 			[53308] = "entanglingRoots",
 			[33786] = "cyclone",
 			[48465] = "starfire", --rank 10
+			[740] = "tranquility", -- Rank 1
+			[8918] = "tranquility", -- Rank 2
+			[9862] = "tranquility", -- Rank 3
+			[9863] = "tranquility", -- Rank 4
+			[26983] = "tranquility", -- Rank 5
 			[48447] = "tranquility",
 
 			-- Hunter (Spell Casting)
@@ -509,9 +516,6 @@
 			[47843] = "unstableAffliction",
 			[710] = "banish",
 			[18647] = "banish",
-			[30283] = "shadowfury", -- Rank 1
-			[30413] = "shadowfury", -- Rank 2
-			[30414] = "shadowfury", -- Rank 3
 			[29893] = "createHealthstone", -- Ritual of Souls Rank 1
 			[6201] = "createHealthstone", -- Create Healthstone Rank 1
 			[6202] = "createHealthstone", -- Create Healthstone Rank 2
@@ -601,12 +605,11 @@
 		
 			--GENERAL
 			[107079] = "quakingPalm",
-			[20549] = "warStomp",
+			--[20549] = "warStomp",
 			[28730] = "arcaneTorrent",
 			[25046] = "arcaneTorrent",
 			[50613] = "arcaneTorrent",
 			[58984] = "shadowmeld",
-			[20549] = "warStomp",
 			[26297] = "berserking",
 			[20594] = "stoneform",
 			[20572] = "bloodFury",
@@ -614,8 +617,6 @@
 			[7744]  = "willOfTheForsaken",
 			[28880] = "giftOfTheNaaru",
 			[59752] = "everyMan", 
-			[54861] = "nitroBoost",
-			[54758] = "hyperspeedAccelerator",
 
 			[59752] = "trinket",
 			[42292] = "trinket", -- Inherited Insignias (Heirloom PvP Trinkets)
@@ -636,11 +637,6 @@
 			[770] = "faeryFire", -- Rank 1
 			[16857] = "faeryFire",
 			[33831] = "forceOfNature",
-			[740] = "tranquility", -- Rank 1
-			[8918] = "tranquility", -- Rank 2
-			[9862] = "tranquility", -- Rank 3
-			[9863] = "tranquility", -- Rank 4
-			[26983] = "tranquility", -- Rank 5
 			[18562] = "swiftmend",
 			[48505] = "starfall",	--starfall rank 1
 			[53199] = "starfall",	--starfall rank 2
@@ -734,7 +730,9 @@
 			[47481] = "petStun", 
 
 			-- Paladin (Cast Success)
-			[20271] = "judgement", -- blizzard can't spell
+			[53407] = "judgementOfJustice",
+			[20271] = "judgementOfLight",
+			[53408] = "judgementOfWisdom",		
 			[1152] = "purify",
 			[4987] = "cleanse",
 			[853] = "hammerOfJustice", -- Rank 1
@@ -805,7 +803,6 @@
 
 			-- Shaman (Cast Success)
 			[2484] = "earthbindTotem",
-			[526] = "curePoison",
 			[8143] = "tremorTotem",
 			[8177] = "groundingTotem",
 			[370] = "purge", -- Rank 1
@@ -839,6 +836,9 @@
 			[48020] = "demonicCircleTeleport",
 			[6789] = "deathcoil",
 			[47860] = "deathcoil",
+			[30283] = "shadowfury", -- Rank 1
+			[30413] = "shadowfury", -- Rank 2
+			[30414] = "shadowfury", -- Rank 3
 			[47847] = "shadowFury",
 			[48011] = "devourMagic",
 			[47875] = "healthtone",

@@ -561,7 +561,7 @@ function GSA:OnOptionCreate()
 								inline = true,
 								name = L["General Abilities"],
 								order = 30,
-								args = listOption({44055,54861,54758},"auraRemoved"),
+								args = listOption({34709,44055,54861,54758},"auraRemoved"),
 							},
 							druid = { -- AuraRemoved
 								type = 'group',
@@ -639,6 +639,7 @@ function GSA:OnOptionCreate()
 								name = "Racials",
 								order = 170,
 								args = listOption({58984,26297,20594,33702,7744,28880,28730,25046,50613},"auraRemoved"),
+							},
 						},
 					},
 					spellCastStart = {
