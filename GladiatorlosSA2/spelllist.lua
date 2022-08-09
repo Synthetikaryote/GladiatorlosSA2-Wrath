@@ -7,17 +7,7 @@
 			[34709] = "shadowSight",
 			[5530] = "maceStun", -- lmao
 			-- Drinking
-			[104270] = "drinking",
-			[167152] = "drinking",
 			[5006] = "drinking",
-			[274194] = "drinking",
-			[262568] = "drinking",
-			[274913] = "drinking",
-			[257427] = "drinking",
-			[257428] = "drinking",
-			[272819] = "drinking",
-			[279739] = "drinking",
-			--Was I drunk when I did this??
 			[44055] = "battlemaster",
 
 
@@ -41,13 +31,12 @@
 			[27009] = "naturesGrasp", -- Rank 7
 			[53312] = "naturesGrasp", -- Rank 8
 			[17116] = "naturesSwiftness",
-			-- Check on friendly
-			[9005] = "pounce", -- Rank 1
-			[9823] = "pounce", -- Rank 2
-			[9827] = "pounce", -- Rank 3
-			[27006] = "pounce", -- Rank 4
 			[50334] = "berserk",
-
+			[48518] = "lunarEclipse",
+			[48517] = "solarEclipse",
+			[16870] = "clearcasting",
+			[52610] = "savageRoar",
+			[69369] = "predatorsSwiftness",
 
 			-- Hunter (Aura Applied)
 			[3045] = "rapidFire",
@@ -56,6 +45,8 @@
 			[19574] = "bestialWrath",
 			[53480] = "roarofsacrifice",
 			[34471] = "theBeastWithin",
+			[54216] = "mastersCall",
+			[34027] = "killCommand",
 			-- Check on friendly
 			[1499] = "trapped", -- Freezing Trap Rank 1
 			[14310] = "trapped", -- Freezing Trap Rank 2
@@ -81,12 +72,14 @@
 			[10223] = "fireWard", -- Rank 4
 			[10225] = "fireWard", -- Rank 5
 			[27128] = "fireWard", -- Rank 6
+			[43010] = "fireWard",
 			[6143] = "frostWard", -- Rank 1
 			[8461] = "frostWard", -- Rank 2
 			[8462] = "frostWard", -- Rank 3
 			[10177] = "frostWard", -- Rank 4
 			[28609] = "frostWard", -- Rank 5
 			[32796] = "frostWard", -- Rank 6
+			[43012] = "frostWard",
 			[1463] = "manaShield", -- Rank 1
 			[8494] = "manaShield", -- Rank 2
 			[8495] = "manaShield", -- Rank 3
@@ -94,9 +87,10 @@
 			[10192] = "manaShield", -- Rank 5
 			[10193] = "manaShield", -- Rank 6
 			[27131] = "manaShield", -- Rank 7
+			[43020] = "manaShield",
+			[43039] = "iceBarrier",
 			[12043] = "presenceOfMind",
 			[12042] = "arcanePower",
-			[11129] = "combustion",
 			[28682] = "combustion",
 			[12472] = "icyVeins",
 			[11426] = "mageShield", -- Rank 1
@@ -105,16 +99,24 @@
 			[13033] = "mageShield", -- Rank 4
 			[27134] = "mageShield", -- Rank 5
 			[33405] = "mageShield", -- Rank 6
-			-- Check on friendly
-			[12355] = "impact", -- Actual debuff
+			[31643] = "blazingSpeed",
+			[64343] = "impact",
+			[48108] = "hotStreak",
+			[74396] = "fingersOfFrost",
+			[57761] = "brainFreeze",
 
 			--DK
-			[49039] = "lichborne",
-			[48792] = "iceboundFortitude",
-			[55233] = "vampiricBlood",
-			[48707] = "antimagicshell",
-			[49222] = "boneshield",
+			[45529] = "bloodTap",
+			[49028] = "dancingRuneWeapon",
 			[49016] = "hysteria",
+			[55233] = "vampiricBlood",
+			[57623] = "hornOfWinter",
+			[48792] = "iceboundFortitude",
+			[49039] = "lichborne",
+			[51271] = "unbreakableArmor",
+			[48707] = "antiMagicShell",
+			[51052] = "antiMagicZone",
+			[49222] = "boneShield",
 
 			-- Paladin (Aura Applied)
 			[1044] = "handOfFreedom",
@@ -125,42 +127,18 @@
 			[10278] = "handOfProtection",	--Hand of Protection rank 3
 			[20164] = "sealOfJustice", -- Rank 1
 			[642] = "divineShield", -- Rank 1
-			[21082] = "sealOfCrusader", -- Rank 1
-			[20162] = "sealOfCrusader", -- Rank 2
-			[20305] = "sealOfCrusader", -- Rank 3
-			[20306] = "sealOfCrusader", -- Rank 4
-			[20307] = "sealOfCrusader", -- Rank 5
-			[20308] = "sealOfCrusader", -- Rank 6
-			[31892] = "sealOfBlood",
-			[348700] = "sealOfBlood", -- Seal of the Martyr
-			[31801] = "sealOfVengeance",
-			[348704] = "sealOfVengeance", -- Seal of Corruption
-			[20154] = "sealOfRighteousness", -- Rank 1
-			[21084] = "sealOfRighteousness", -- Rank 1 again?
-			[20287] = "sealOfRighteousness", -- Rank 2
-			[20288] = "sealOfRighteousness", -- Rank 3
-			[20289] = "sealOfRighteousness", -- Rank 4
-			[20290] = "sealOfRighteousness", -- Rank 5
-			[20291] = "sealOfRighteousness", -- Rank 6
-			[20292] = "sealOfRighteousness", -- Rank 7
-			[20293] = "sealOfRighteousness", -- Rank 8
-			[20166] = "sealOfWisdom", -- Rank 1
-			[20356] = "sealOfWisdom", -- Rank 2
-			[20357] = "sealOfWisdom", -- Rank 3
-			[20165] = "sealOfLight", -- Rank 1
-			[20347] = "sealOfLight", -- Rank 2
-			[20348] = "sealOfLight", -- Rank 3
-			[20349] = "sealOfLight", -- Rank 4
 			[31884] = "avengingWrath",
 			[6940] = "Sacrifice", -- Rank 1
-			[64205] = "divineSacrifice",
+			[6940]  = "handofsacrifice",
+			[1038]  = "handofsalvation",
 			[20216] = "divineFavor",
 			[20375] = "sealOfCommand",
 			[31842] = "divineIllumination",
-			-- Check on friendly
+			[20178] = "reckoning",
 			[10308] = "justiceStun",
 			[54428] = "divinePlea",
-
+			[53563] = "beaconOfLight",
+			[53601] = "sacredShield",
 
 			-- Priest (Aura Applied)
 			[33206] = "painSuppression",
@@ -171,6 +149,9 @@
 			[552] = "abolishDisease",
 			[47788] = "GuardianSpirit",
 			[47585] = "dispersion",
+			[48066] = "powerWordShield",
+			[586]   = "fade",
+			[15473] = "shadowForm",
 
 			-- Rogue (Aura Applied)
 			[5277] = "evasion", -- Rank 1
@@ -178,6 +159,7 @@
 			[31224] = "cloakOfShadows",
 			[14177] = "coldBlood",
 			[13750] = "adrenalineRush",
+			[51690] = "killingSpree", 
 			-- Check on friendly
 			[1833] = "cheapShot",
 			[6770] = "sap", -- Rank 1
@@ -186,6 +168,8 @@
 			[26839] = "garrote", -- Rank 7 (7+ silence)
 			[26884] = "garrote", -- Rank 8
 			[51713] = "shadowDance",
+			[57934] = "trickOfTheTrade",
+			[45182] = "cheatingDeath",
 
 			-- Shaman (Aura Applied)
 			[16166] = "elementalMastery",
@@ -212,83 +196,165 @@
 			[11739] = "shadowWard", -- Rank 2
 			[11740] = "shadowWard", -- Rank 3
 			[28610] = "shadowWard", -- Rank 4
-			[18288] = "amplifyCurse",
+			[47891] = "shadowWard",
+			[18708] = "felDomination",
 
 			-- Warrior (Buff Applied)
-			[55694] = "EnragedRegeneration",
+			[55694] = "enragedRegeneration",
 			[46924] = "bladestorm",
-			[2457] = "damageStance",
-			[71] = "defenseStance",
-			[2458] = "berserkerStance",
 			[2687] = "bloodRage",
 			[871] = "shieldWall",
 			[18499] = "berserkerRage",
 			[1719] = "recklessness",
 			[23920] = "spellReflection",
-			[12292] = "deathwish",
+			[12292] = "deathWish",
 			[12975] = "lastStand",
 			[20230] = "Retaliation",
+			[23881] = "bloodthirst",
 		},
 		auraRemoved = {					-- aura removed [spellid] = ".mp3 file name",
 			-- General (Aura Removed)
 			[44055] = "battlemasterDown",
 
+			[54861] = "nitroBoostDown",
+			[54758] = "hyperspeedAcceleratorDown",
+
+			--Races
+			[58984] = "shadowmeldDown",
+			[26297] = "berserkingDown",
+			[20594] = "stoneformDown",
+			[20572] = "bloodFuryDown",
+			[33702] = "bloodFuryDown",
+			[7744] = "willOfTheForsakenDown",
+			[28880] = "giftOfTheNaaruDown",
+			[28730] = "arcaneTorrentDown",
+			[25046] = "arcaneTorrentDown",
+			[50613] = "arcaneTorrentDown",
+
 			-- Druid (Aura Removed)
+			[22812] = "barkskinDown",
 			[29166] = "innervateDown",
-			[48505] = "Starfalldown",	--starfall rank 1
-			[53199] = "Starfalldown",	--starfall rank 2
-			[53200] = "Starfalldown",	--starfall rank 3
-			[53201] = "Starfalldown",	--starfall rank 4
+			[17329] = "naturesGraspDown",	--rank 6
+			[27009] = "naturesGraspDown",	--rank 7
+			[53312] = "naturesGraspDown",	--rank 8
+			[48505] = "starfallDown",	--rank 1
+			[53199] = "starfallDown",	--rank 2
+			[53200] = "starfallDown",	--rank 3
+			[53201] = "starfallDown",	--rank 4
+			[50334] = "berserkDown",
+			[1850] = "dashDown",	--rank 1
+			[9821] = "dashDown",	--rank 2
+			[33357] = "dashDown",	--rank 3
+			[5229] = "enrageDown",
+			[22842] = "frenziedRegenerationDown",
+			[52610] = "savageRoarDown",
+			[61336] = "survivalInstinctsDown",
+			[69369] = "predatorsSwiftnessDown",
+			[17116] = "naturesSwiftnessDown",
 
 			-- Hunter (Aura Removed)
+			[34027] = "killCommandDown",
+			[54216] = "mastersCallDown",
+			[34471] = "theBeastWithinDown",
+			[3045] = "rapidFireDown",
 			[19263] = "deterrenceDown",
-			[34471] = "beastwithindown",
 
 			-- Mage (Aura Removed)
-			[12042] = "APDown",
-			[11129] = "combustionDown",
-			[12472] = "icyVeinsDown",
+			[12042] = "arcanePowerDown",
+			[66] = "invisibilityDown",
+			[43020] = "manaShieldDown",
+			[28682] = "combustionDown",
+			[12043] = "presenceOfMindDown",
+			[64343] = "impactDown",
+			[48108] = "hotStreakDown",
+			[43012] = "frostWardDown",
+			[43039] = "iceBarrierDown",
 			[45438] = "iceBlockDown",
+			[12472] = "icyveinsDown",
+			[43010] = "fireWardDown",
+			[31643] = "blazingSpeedDown",
+			[74396] = "fingersOfFrostDown",
+			[57761] = "brainFreezeDown",
 
 			-- Paladin (Aura Removed)
+			[31821] = "auraMasteryDown",
+			[53563] = "beaconOfLightDown",
+			[31842] = "divineIlluminationDown",
+			[54428] = "divinePleaDown",
+			[53601] = "sacredShieldDown",
 			[25771] = "forbearanceDown",
-			[498] = "ProtectionDown", -- Rank 1
-			[10278] = "ProtectionDown", -- Rank 3
-			[642] = "bubbleDown", -- Rank 1
-			[6940] = "sacrificeDown", -- Rank 1
+			[498] = "divineProtectionDown", -- Rank 1
+			[642] = "divineShieldDown", -- Rank 1
+			[6940] = "divineSacrificeDown", -- Rank 1
 			[20216] = "divineFavorDown",
+			[1044] = "handOfFreedomDown",
+			[1022] = "handOfProtectionDown",	--Hand of Protection rank 1
+			[5599] = "handOfProtectionDown",	--Hand of Protection rank 2
+			[10278] = "handOfProtectionDown",	--Hand of Protection rank 3
+			[6940] = "handofsacrificeDown",
+			[1038] = "handofsalvationDown",
+			[20178] = "reckoningDown",
+			[31884] = "avengingWrathDown",
 
 			-- Priest (Aura Removed)
 			[6346] = "fearWardDown",
-			[15286] = "vampiricEmbraceDown",
-			[33206] = "PSDown",
-			[10060] = "infusionDown",
-			[14751] = "innerFocusDown",
+			[48168] = "innerFireDown", 
+			[33206] = "painSuppressionDown",
+			[10060] = "powerInfusionDown",
+			[48066] = "powerWordShieldDown", 
+			[47788] = "guardianSpiritDown",
 			[47585] = "dispersionDown",
+			[586] = "fadeDown",	
+			[15473] = "shadowFormDown",
 
 			-- Rogue (Aura Removed)
-			[5277] = "evasionDown", -- Rank 1
-			[26669] = "evasionDown", -- Rank 2
+			[14177] = "coldBloodDown",
+			[13750] = "adrenalineRushDown",
+			[5277] = "evasionDown", --Evasion rank 1
+			[26669] = "evasionDown", --Evasion rank 2
+			[51690] = "killingSpreeDown",
+			[2983] = "sprintDown",	--Sprint rank 1
+			[8696] = "sprintDown",	--Sprint rank 3
+			[11305] = "sprintDown",	--Sprint rank 2
 			[31224] = "cloakDown",
+			[51713] = "shadowDanceDown",
+			[57934] = "trickOfTheTradeDown",
+			[45182] = "cheatingDeathDown",
 
 			-- Shaman (Aura Removed)
+			[16166] = "elementalMasteryDown",
+			[32182] = "heroismDown", 
+			[2825] = "bloodlustDown",
 			[30823] = "shamanisticRageDown",
+			[16188] = "naturesSwiftnessDown",
 
 			-- Warlock (Aura Removed)
-			-- nope
+			[18708] = "felDominationDown",
 
 			--DK
+			[45529] = "bloodTapDown",
+			[49028] = "dancingRuneWeaponDown",
+			[49016] = "hysteriaDown",
+			[55233] = "vampiricBloodDown",
+			[57623] = "hornOfWinterDown",
 			[48792] = "iceboundFortitudeDown",
 			[49039] = "lichborneDown",
-			[48707] = "antimagicshelldown",
+			[51271] = "unbreakableArmorDown",
+			[48707] = "antiMagicShellDown",
+			[51052] = "antiMagicZoneDown",
+			[49222] = "boneShieldDown",
 
 			-- Warrior (Aura Removed)
-			[46924] = "bladestormdown",
-			[871] = "shieldWallDown",
-			[1719] = "recklessnessDown",
-			[23920] = "spellReflectionDown",
-			[12292] = "deathwishDown",
+			[46924] = "bladestormDown",
+			[20230] = "RetaliationDown",
+			[12328] = "sweepingStrikesDown",
+			[18499] = "berserkerRageDown",
+			[12292] = "deathWishDown",
+			[55694] = "enragedRegenerationDown",
 			[12975] = "lastStandDown",
+			[1719] = "recklessnessDown",
+			[871] = "shieldWallDown",
+			[23920] = "spellReflectionDown",
 		},
 		castStart = {					-- cast start [spellid] = ".mp3 file name",
 		
@@ -375,8 +441,10 @@
 			[5196] = "entanglingRoots", -- Rank 4
 			[9852] = "entanglingRoots", -- Rank 5
 			[26989] = "entanglingRoots", -- Rank 6
+			[53308] = "entanglingRoots",
 			[33786] = "cyclone",
 			[48465] = "starfire", --rank 10
+			[48447] = "tranquility",
 
 			-- Hunter (Spell Casting)
 			[19434] = "aimedShot", -- Rank 1
@@ -386,6 +454,7 @@
 			[20903] = "aimedShot", -- Rank 5
 			[20904] = "aimedShot", -- Rank 6
 			[27065] = "aimedShot", -- Rank 7
+			[49050] = "aimedShot", -- Rank 9
 			[982] = "revivePet",
 			[1513] = "scareBeast", -- Rank 1
 			[14326] = "scareBeast", -- Rank 2
@@ -411,40 +480,35 @@
 
 			-- Priest (Spell Casting)
 			[605] = "mindControl", -- Rank 1
-			[10911] = "mindControl", -- Rank 2
 			[8129] = "manaBurn", -- Rank 1
-			[8131] = "manaBurn", -- Rank 2
-			[10874] = "manaBurn", -- Rank 3
-			[10875] = "manaBurn", -- Rank 4
-			[10876] = "manaBurn", -- Rank 5
-			[25379] = "manaBurn", -- Rank 6
-			[32375] = "massDispell",
+			[32375] = "massDispel",
 			[64843] = "divineHymn",
-			[9484] = "shackleUndead",
+			[9484]  = "shackleUndead",
+			[10955] = "shackleUndead",
 
 			-- Rogue (Spell Casting)
-			-- lol
+			[1842]  = "disarmTrap",
 
 			-- Shaman (Spell Casting)			
 			[51514] = "hex", --works
-			[60043] = "lavaburst",
+			[60043] = "lavaBurst",
 
 			-- Warlock (Spell Casting)
-			[688] = "summonDemon", -- Imp
-			[697] = "summonDemon", -- Voidwalker
-			[712] = "summonDemon", -- Succubus
-			[691] = "summonDemon", -- Felhunter
-			[30146] = "summonDemon", -- Felguard
+			[688] = "summonImp", -- Imp
+			[697] = "summonVoidwalker", -- Voidwalker
+			[712] = "summonSuccube", -- Succubus
+			[691] = "summonFelhunter", -- Felhunter
+			[30146] = "summonFelGuard", -- Felguard
 			[1122] = "summonInfernal", -- O THIS WAS SCARY HUH
-			[5782] = "fear", -- Rank 1
-			[6213] = "fear", -- Rank 2
 			[6215] = "fear", -- Rank 3
-			[5484] = "terrorHowl", -- Rank 1
-			[17928] = "terrorHowl", -- Rank 2
+			[5484] = "howlOfTerror", -- Rank 1
+			[17928] = "howlOfTerror", -- Rank 2
 			[30108] = "unstableAffliction", -- Rank 1
 			[30404] = "umstableAffliction", -- Rank 2
 			[30405] = "unstableAffliction", -- Rank 3
+			[47843] = "unstableAffliction",
 			[710] = "banish",
+			[18647] = "banish",
 			[30283] = "shadowfury", -- Rank 1
 			[30413] = "shadowfury", -- Rank 2
 			[30414] = "shadowfury", -- Rank 3
@@ -455,6 +519,7 @@
 			[11729] = "createHealthstone", -- Create Healthstone Rank 4
 			[11730] = "createHealthstone", -- Create Healthstone Rank 5
 			[27230] = "createHealthstone", -- Create Healthstone Rank 6
+			[47878] = "createHealstone",
 			[689] = "drainLife", -- Rank 1
 			[699] = "drainLife", -- Rank 2
 			[709] = "drainLife", -- Rank 3
@@ -463,39 +528,31 @@
 			[11700] = "drainLife", -- Rank 6
 			[27219] = "drainLife", -- Rank 7
 			[27220] = "drainLife", -- Rank 8
+			[47857] = "drainLife", -- Rank 9
 			[5138] = "drainMana", -- Rank 1
 			[6353] = "soulFire", -- Rank 1
 			[17924] = "soulFire", -- Rank 2
 			[27211] = "soulFire", -- Rank 3
 			[30545] = "soulFire", -- Rank 4
+			[47824] = "soulFire", -- Rank 5
+			[47825] = "soulFire", -- Rank 6
+			[48018] = "demonicCircleSummon",
+			[59172] = "chaosBolt",
+			[6358] = "seduction",
 
 			-- Warrior (Cast Start)
-			-- smack smack smack
-
+			[64382] = "shatteringThrow",
 		},
 		castSuccess = {					--cast success [spellid] = ".mp3 file name",
 --[[			-- Cure (DPS Dispel)
-			[213644] = "cure", 		-- Cleanse Toxins (Retribution/Protection Paladin)
-			[236186] = "cure",		-- Cleansing Light (Paladin Honor Talent)
 			[51886] = "cure", 		-- Cleanse Spirit (Enhancement/Elemental Shaman)
 			[2782] = "cure", 		-- Remove Corruption (Guardian/Feral/Balance Druid)
-			[213634] = "cure", 		-- Purify Disease (Shadow Priest)
-			[218164] = "cure", 		-- Detox (Brewmaster/Windwalker Monk)
 			[475] = "cure",			-- Remove Curse (Mage)
 			--I miss Remove Curse for mages. :( This spot is reserved for its memory. ]]
 			
 --[[			-- Dispel (Healer (Magic) Dispel)
 			[4987] = "dispel", 		-- Cleanse (Holy Paladin)
-			[77130] = "dispel", 	-- Purify Spirit (Restoration Shaman)
-			[88423] = "dispel", 	-- Nature's Cure (Restoration Druid)
-			[527] = "dispel", 		-- Purify (Holy/Discipline Priest)
-			[115450] = "dispel", 	-- Detox (Mistweaver Monk)
-			-- Warlocks, because they're special snowflakes.
-			[89808] = "dispel", 	-- Singe Magic
-			[137178] = "dispel",	-- Singe Magic (Green)
-			[119905] = "dispel",	-- Singe Magic 2, Electric Boogaloo
-			[212623] = "dispel",	-- Singe Magic (PvP Talent)
-			[212620] = "dispel",	-- Singe Magic (PvP Talent, looks to be unused)]]
+			[527] = "dispel", 		-- Purify (Holy/Discipline Priest)]]
 			
 			-- CastSuccess (Major, cast-time CCs that went off)
 			-- DRUID
@@ -549,28 +606,20 @@
 			[25046] = "arcaneTorrent",
 			[50613] = "arcaneTorrent",
 			[58984] = "shadowmeld",
-			[26297] = "Berserk",
+			[20549] = "warStomp",
+			[26297] = "berserking",
 			[20594] = "stoneform",
-			[20572] = "BloodFury",
-			[33702] = "BloodFury",
-			[7744] = "willOfTheForsaken",
-			[28880] = "giftofthenaaru",
+			[20572] = "bloodFury",
+			[33702] = "bloodFury",
+			[7744]  = "willOfTheForsaken",
+			[28880] = "giftOfTheNaaru",
 			[59752] = "everyMan", 
-			[287712] = "haymaker",
-			[295707] = "regeneratin",
+			[54861] = "nitroBoost",
+			[54758] = "hyperspeedAccelerator",
 
-			[208683] = "trinket", -- Gladiator's Medallion Legion
-			[195710] = "trinket", -- Honorable Medallion Legion
-			[336126] = "trinket", -- Gladiator's Medallion Shadowlands
+			[59752] = "trinket",
 			[42292] = "trinket", -- Inherited Insignias (Heirloom PvP Trinkets)
-			[23035] = "battleStandard",
-			[23034] = "battleStandard",
-			[213664] = "NimbleBrew", -- Nimble Brew consumable
 			[6262] = "Healthstone", -- Healthstone consumable
-			[265221] = "Fireblood", -- Fireblood (Dark Iron Dwarf)
-			[256948] = "SpatialRift", -- Spatial Rift (Void Elf)
-			[257040] = "SpatialRift2", -- Spatial Rift Teleport (Spatial Warp) (Void Elf)
-			[255654] = "BullRush", -- Bull Rush (Highmountain Racial)
 
 			-- Druid (Cast Success)
 			[8946] = "curePoison",
@@ -584,12 +633,8 @@
 			[1850] = "dash", -- Rank 1
 			[9821] = "dash", -- Rank 2
 			[33357] = "dash", -- Rank 3
-			[770] = "faerieFire", -- Rank 1
-			[16857] = "faerieFire", -- Rank 1 (Feral)
-			[17390] = "faerieFire", -- Rank 2 (Feral)
-			[17391] = "faerieFire", -- Rank 3 (Feral)
-			[17392] = "faerieFire", -- Rank 4 (Feral)
-			[27011] = "faerieFire", -- Rank 5 (Feral)
+			[770] = "faeryFire", -- Rank 1
+			[16857] = "faeryFire",
 			[33831] = "forceOfNature",
 			[740] = "tranquility", -- Rank 1
 			[8918] = "tranquility", -- Rank 2
@@ -601,6 +646,15 @@
 			[53199] = "starfall",	--starfall rank 2
 			[53200] = "starfall",	--starfall rank 3
 			[53201] = "starfall",	--starfall rank 4
+			[16979] = "feralChargeBear",
+			[49376] = "feralChargeCat",
+			[49802] = "maim",
+			[9005] = "pounce", -- Rank 1
+			[9823] = "pounce", -- Rank 2
+			[9827] = "pounce", -- Rank 3
+			[27006] = "pounce", -- Rank 4
+			[49803] = "pounce",
+			[2893]  = "abolishPoison",
 
 			-- Hunter (Cast Success)
 			[5116] = "concussiveShot",
@@ -614,45 +668,70 @@
 			[14311] = "freezingTrap", -- Rank 3
 			[60192] = "freezingtrap", --double check
 			[14309] = "freezingtrap", --freezing trap effect
-			[13810] = "frosttrap", --frost trap aura
-			[13809] = "frosttrap", --frost trap aura
-			[34490] = "silencingShot",
+			[13810] = "frostTrap", --frost trap aura
+			[13809] = "frostTrap", --frost trap aura
+			[60192] = "freezingArrow",
+			[34490] = "silencingshot",
+			[19801] = "tranquilizingShot",
+			[3034]  = "viperSting",
 			[23989] = "readiness",
 			[19386] = "wyvernSting", -- Rank 1
 			[24132] = "wyvernSting", -- Rank 2
 			[24133] = "wyvernSting", -- Rank 3
 			[27068] = "wyvernSting", -- Rank 4
+			[49010] = "wyvernSting",
 			[19503] = "scatterShot",
 			[14285] = "arcaneShot", -- Rank 6 (this rank and higher purges)
 			[14286] = "arcaneShot", -- Rank 7
 			[14287] = "arcaneShot", -- Rank 8
 			[27019] = "arcaneShot", -- Rank 9
 			[53271] = "masterscall",
+			[781]   = "disengage",
+			[34600] = "snaketrap",
+			[53547] = "petPin",
+
 
 			-- Mage (Cast Success)
 			[475] = "removeLesserCurse",
 			[1953] = "blink",
 			[2139] = "counterspell",
 			[45438] = "iceBlock",
+			[42987] = "manaGem",
 			[122] = "frostNova", -- Rank 1
 			[865] = "frostNova", -- Rank 2
 			[6131] = "frostNova", -- Rank 3
 			[10230] = "frostNova", -- Rank 4
 			[27088] = "frostNova", -- Rank 5
+			[42917] = "frostNova",
 			[66] = "invisibility",
-			[30449] = "spellsteal",
+			[30449] = "spellSteal",
 			[11113] = "blastWave",
 			[11958] = "coldSnap",
-			[31687] = "waterElemental",
+			[31687] = "summonWaterElemental",
 			[44572] = "deepFreeze",
+			[55342] = "mirrorImage",
+			[475]   = "removeCurse",
+			[42950] = "dragonsBreath",
+			[33395] = "petFreeze",
 
 			--DK
-			[47528] = "mindFreeze",
+			[49941] = "bloodBoil", 
+			[48266] = "bloodPresence", 
+			[49005] = "markofblood", 
+			[48982] = "runeTap", 
 			[47476] = "strangulate",
-			[47568] = "runeWeapon",
-			[49206] = "gargoyle",
+			[45524] = "chainOfIce", 
+			[47568] = "empowerRuneWeapon",
+			[48263] = "frostPresence", 
 			[49203] = "hungeringCold",
-			[61606] = "markofblood",
+			[47528] = "mindFreeze",
+			[49938] = "deathAndDecay", 
+			[49576] = "deathGrip", 
+			[61999] = "raiseAlly", 
+			[46584] = "raiseDead", 
+			[49206] = "summonGargoyle",
+			[48265] = "unholyPresence",
+			[47481] = "petStun", 
 
 			-- Paladin (Cast Success)
 			[20271] = "judgement", -- blizzard can't spell
@@ -671,17 +750,20 @@
 			[20930] = "holyShock", -- Rank 3
 			[27174] = "holyShock", -- Rank 4
 			[33072] = "holyShock", -- Rank 5
+			[48825] = "holyShock",
 			[20066] = "repentance",
+			[19746] = "concentrationAura",
 
 			-- Priest (Cast Success)
 			[528] = "cureDisease",
+			[552]   = "abolishDisease",
 			[527] = "dispelMagic", -- Rank 1 (Purge)
 			[988] = "dispelMagic", -- Rank 2 (Purge)
 			[8122] = "Fear4", -- Rank 1
 			[8124] = "Fear4", -- Rank 2
 			[10888] = "Fear4", -- Rank 3
 			[10890] = "Fear4", -- Rank 4
-			[34433] = "shadowfiend",
+			[34433] = "shadowFiend",
 			[2944] = "devouringPlague", -- Rank 1
 			[19276] = "devouringPlague", -- Rank 2
 			[19277] = "devouringPlague", -- Rank 3
@@ -694,8 +776,9 @@
 			[32379] = "shadowWordDeath", -- Rank 1
 			[32996] = "shadowWordDeath", -- Rank 2
 			[15487] = "silence",
-			[64044] = "disarm3", --psychic horror, works
-
+			[64044] = "psychicHorror", --psychic horror, works
+			[48078] = "holyNova",
+			[53023] = "mindSear",
 
 			-- Rogue (Cast Success)
 			[2094] = "blind",
@@ -705,23 +788,11 @@
 			[8696] = "sprint", -- Rank 2
 			[11305] = "sprint", -- Rank 3
 			[1784] = "stealth", -- Rank 1
-			[1785] = "stealth", -- Rank 2
-			[1786] = "stealth", -- Rank 3
-			[1787] = "stealth", -- Rank 4
 			[1856] = "vanish", -- Rank 1
 			[1857] = "vanish", -- Rank 2
 			[26889] = "vanish", -- Rank 3
 			[1776] = "gouge", -- Rank 1
-			[1777] = "gouge", -- Rank 2
-			[8629] = "gouge", -- Rank 3
-			[11285] = "gouge", -- Rank 4
-			[11286] = "gouge", -- Rank 5
-			[38764] = "gouge", -- Rank 6
 			[1766] = "kick", -- Rank 1
-			[1767] = "kick", -- Rank 2
-			[1768] = "kick", -- Rank 3
-			[1769] = "kick", -- Rank 4
-			[38768] = "kick", -- Rank 5
 			[14278] = "ghostlyStrike",
 			[14185] = "preparation",
 			[36554] = "shadowstep",
@@ -730,12 +801,13 @@
 			[11297] = "sap",
 			[6770] = "sap",
 			[13877] = "bladeflurry",
+			[51723] = "fanOfKnive",
 
 			-- Shaman (Cast Success)
 			[2484] = "earthbindTotem",
 			[526] = "curePoison",
 			[8143] = "tremorTotem",
-			[8177] = "grounding",
+			[8177] = "groundingTotem",
 			[370] = "purge", -- Rank 1
 			[8012] = "purge", -- Rank 2
 			[8042] = "earthShock", -- Rank 1
@@ -746,48 +818,50 @@
 			[10413] = "earthShock", -- Rank 6
 			[10414] = "earthShock", -- Rank 7
 			[25454] = "earthShock", -- Rank 8
+			[49231] = "earthShock",
 			[8170] = "diseaseCleansingTotem",
-			[2062] = "earthElemental",
-			[2894] = "fireElemental",
+			[2062] = "earthElementalTotem",
+			[2894] = "fireElementalTotem",
 			[2825] = "bloodlust",
-			[32182] = "bloodlust", -- Heroism
+			[32182] = "heroism", -- Heroism
 			[16190] = "manaTideTotem",
 			[8143] = "tremorTotem", --works
 			[65992] = "tremorTotem", --dont know which one
+			[51533] = "feralSpirit",
+			[59159] = "thunderstorm",
+			[51886] = "cleanseSpirit",
+			[8170]  = "cleansingTotem",
+			[526]   = "cureToxins",
 
 			-- Warlock (Cast Success)
-			[5138] = "DrainMana",
 			[17928] = "fear2", --Howl of Terror
 			[19647] = "spellLock",
 			[48020] = "demonicCircleTeleport",
-			[6789] = "mortalCoil",
-			[47860] = "mortalCoil",
-			[6358] = "Seduction",
-
+			[6789] = "deathcoil",
+			[47860] = "deathcoil",
+			[47847] = "shadowFury",
+			[48011] = "devourMagic",
+			[47875] = "healthtone",
 
 			-- Warrior (Cast Success)
 			[676] = "disarm",
 			[5246] = "Fear3",
 			[6552] = "pummel", -- Rank 1
-			[6554] = "pummel", -- Rank 2
 			[72] = "shieldBash", -- Rank 1
-			[1671] = "shieldBash", -- Rank 2
-			[1672] = "shieldBash", -- Rank 3
-			[29704] = "shieldBash", -- Rank 4
 			[100] = "charge", -- Rank 1
 			[6178] = "charge", -- Rank 2
 			[11578] = "charge", -- Rank 3
 			[20252] = "intercept", -- Rank 1
-			[20616] = "intercept", -- Rank 2
-			[20617] = "intercept", -- Rank 3
-			[25272] = "intercept", -- Rank 4
-			[25275] = "intercept", -- Rank 5
 			[3411] = "intervene",
 			[12328] = "sweepingStrikes",
 			[12809] = "concussionBlow",
-			[2457] = "battlestance",
-			[71] = "defensestance",
-			[2458] = "berserkerstance",
+			[2457] = "battleStance",
+			[71] = "defensiveStance",
+			[2458] = "berserkerStance",
+			[57755] = "heroicThrow",
+			[57823] = "revenge",
+			[46968] = "shockwave",
+			[7386]  = "sunderArmor",
 		},
 		friendlyInterrupt = {			--friendly interrupt [spellid] = ".mp3 file name",
 			[19647] = "lockout", -- Spell Locks begin

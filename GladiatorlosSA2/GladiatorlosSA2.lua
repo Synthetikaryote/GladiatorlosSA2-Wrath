@@ -300,7 +300,7 @@ end
  end
  
  function GladiatorlosSA:UNIT_SPELLCAST_SUCCEEDED(event, unitTarget, castGUID, spellID)
-	if gsadb.class and spellID == 42292 then
+	if gsadb.class and (spellID == 42292 or spellID == 59752) then
 		local guid = UnitGUID(unitTarget)
 		local c = self:ArenaClass(guid)
 		if c then
