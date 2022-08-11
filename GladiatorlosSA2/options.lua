@@ -721,7 +721,7 @@ function GSA:OnOptionCreate()
 								inline = true,
 								name = L["|cff9482C9Warlock|r"],
 								order = 140,
-								args = listOption({688,697,712,691,30146,6215,17928,47843,18647,30414,47878,47857,5138,47825,48018,59172,6358},"castStart"),
+								args = listOption({688,697,712,691,30146,6215,17928,47843,18647,30414,47878,47857,5138,47825,48018,59172},"castStart"),
 							},
 --[[							warrior = { -- CastStart
 								type = 'group',
@@ -859,7 +859,7 @@ function GSA:OnOptionCreate()
 								inline = true,
 								name = L["|cff9482C9Warlock|r"],
 								order = 150,
-								args = listOption({17928,19647,47860,47847,48011,47875,48020},"castSuccess"),
+								args = listOption({17928,19647,47860,47847,48011,47875,48020,6358},"castSuccess"),
 							},
 							warrior	= { -- CastSuccess
 								type = 'group',

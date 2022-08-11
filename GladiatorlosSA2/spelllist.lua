@@ -544,7 +544,6 @@
 			[47825] = "soulFire", -- Rank 6
 			[48018] = "demonicCircleSummon",
 			[59172] = "chaosBolt",
-			[6358] = "seduction",
 
 			-- Warrior (Cast Start)
 			[64382] = "shatteringThrow",
@@ -844,6 +843,7 @@
 			[47847] = "shadowFury",
 			[48011] = "devourMagic",
 			[47875] = "healthtone",
+			[6358] = "seduction",
 
 			-- Warrior (Cast Success)
 			[676] = "disarm",
